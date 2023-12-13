@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: lightblue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    text-align: center;
+    border: solid;
+    margin-left: 25%;
+    margin-right: 7%;
+}
+.footer{
+    background-color: aqua;
+    text-align: center;
+}
+.container input[type=text]{
+    border-radius: 5px;
+    padding: 10px;
+}

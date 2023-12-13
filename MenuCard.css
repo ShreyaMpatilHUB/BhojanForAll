@@ -1,0 +1,78 @@
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(RegistrationBg.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) brightness(40px);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+#donorMenuForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #b6cdd7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table{
+    width: 100px;
+}
+table th,table td{
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="number"],input[type="text"],input[type="liter"]{
+    width: 300%;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+button-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    
+    align-items: center;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 16px;
+}
+input[type="button"]{
+    float: right;
+    align-items: center;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,input[type="button"]:hover {
+    background-color: #0056b3;
+}

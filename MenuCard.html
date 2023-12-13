@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Menu Card</title>
+    <link rel="stylesheet" href="MenuCard.css">
+</head>
+<body>
+    <section>
+    <form id="donorMenuForm">
+        <h1> Menu Card</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>Dal</td>
+        <td><input type="liter" name="Dal_quantity" min="0" step="1"></td>
+    </tr>
+    <tr>
+        <td>Rice</td>
+        <td><input type="number" name="Rice_quantity" min="0" step="1"></td>
+    </tr>
+    <tr>
+        <td>Roti/chapati</td>
+        <td><input type="number" name="Roti/chapati" min="0" step="1"></td>
+    </tr>
+    <tr>
+        <td>Sabji</td>
+        <td><input type="text" name="Sabji" min="0" step="1"></td>
+    </tr>
+    <tr>
+        <td>Dessert(Sweet)</td>
+        <td><input type="text"name="Dessert(Sweet)" placeholder="Sweet name and quantity"></td>
+    </tr>
+    <tr>
+        <td>Other</td>
+        <td><input type="text" name="Other_item" placeholder="Specify Item and quantity">
+          </td>
+    </tr>
+</tbody>
+</table>
+<div class="button-container">
+    <input type="submit" value="Donate Now"> 
+    <a href="DonorHomePage.html"><input type="button" value="Cancel" class="Cancel-button"></a>
+</div>
+    </form>
+</section>
+</body>
+</html>
